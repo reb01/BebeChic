@@ -39,7 +39,9 @@ const Homepage = () => {
               style={{ textDecoration: "none" }}
               to={`covers/${"blanket"}`}
             >
-              <LowerText3>100% Organic Bamboo Cellular Blankets</LowerText3>
+              <LowerText3>
+                100% Organic Bamboo Cellular Baby Blankets
+              </LowerText3>
             </Link1>
             <Heart>
               <AiFillHeart size="25" />
@@ -112,11 +114,11 @@ const Homepage = () => {
                     }}
                   />
                   <div class="after">
-                    <TitleBottom>Cellular Blankets</TitleBottom>
+                    <TitleBottom>Cellular Baby Blankets</TitleBottom>
                   </div>
                 </Link1>{" "}
               </div>
-              <TextUnder>Shop Cellular Blankets</TextUnder>
+              <TextUnder>Shop Cellular Baby Blankets</TextUnder>
             </ColumnDiv>
           </PhotosWrapper>
         </FirstSection>

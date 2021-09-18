@@ -11,8 +11,8 @@ function BlanketsDetails() {
         <FlexRow>
           <FaBaby size="30" />
           <Text>
-            Our organic bamboo cellular blankets come in Newborn / Crib size -
-            95 x 80 cm.
+            Our organic bamboo cellular baby blankets come in Newborn / Crib
+            size - 95 x 80 cm.
           </Text>
         </FlexRow>
         <FlexRow>

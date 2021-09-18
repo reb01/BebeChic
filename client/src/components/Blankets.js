@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { blanketsAll } from "../data";
 import styled from "styled-components";
 import logo from "../assets/WavyPink.png";
@@ -8,7 +8,7 @@ import logo from "../assets/WavyPink.png";
 const Blankets = () => {
   return (
     <Wrapper>
-      <Title>100% Organic Bamboo Cellular Blankets</Title>
+      <Title>100% Organic Bamboo Cellular Baby Blankets</Title>
       <Logo>
         <img src={logo} alt="Pic1" style={{ width: 100 }} />
       </Logo>

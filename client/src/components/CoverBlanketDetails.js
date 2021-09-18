@@ -84,7 +84,7 @@ function CoverBlanketDetails() {
           <FaBabyCarriage size="20" />
           <Text>machine wash 40oC; care label attached</Text>
         </FlexRow1>
-        <Title>Blanket Details and Specifications</Title>
+        <Title>Baby Blanket Details and Specifications</Title>
         <FlexRow>
           <FaBaby size="30" />
           <Text>
@@ -96,11 +96,12 @@ function CoverBlanketDetails() {
         <FlexRow>
           <FaBaby size="30" />
           <Text>
-            All our blankets are made from 100% Organic Bamboo fibres. No dyes
-            are used in the manufacture of the natural bamboo fabric and the
-            dyes used in the 100% polyester trim conform to baby safe Oeko-Tex
-            Standard 100 Class 1. Together with the Cellular construction these
-            factors make our blankets safe for your baby from newborn onwards.
+            All our baby blankets are made from 100% Organic Bamboo fibres. No
+            dyes are used in the manufacture of the natural bamboo fabric and
+            the dyes used in the 100% polyester trim conform to baby safe
+            Oeko-Tex Standard 100 Class 1. Together with the Cellular
+            construction these factors make our blankets safe for your baby from
+            newborn onwards.
           </Text>
         </FlexRow>
 

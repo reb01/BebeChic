@@ -38,7 +38,7 @@ const About = () => {
           colours are chosen to suit the British taste and we pride ourselves on
           the high quality and value of all our products.
         </Text>{" "}
-        <TextTop>OUR ORGANIC CELLULAR BLANKETS</TextTop>
+        <TextTop>OUR ORGANIC CELLULAR BABY BLANKETS</TextTop>
         <Text>
           Our 100% Organic Bamboo Cellular Blankets, also made in UK, are a
           recent addition to our range. The unique properties of bamboo plus the

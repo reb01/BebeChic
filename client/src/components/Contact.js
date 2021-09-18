@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import logo from "../assets/ContactBanner (1).jpg";
+import logo from "../assets/ContactBanner (4).jpg";
 import ContactForm from "./ContactForm";
 import "./App.css";
 
@@ -32,7 +32,8 @@ const Contact = () => {
             message.{" "}
           </Text>
           <TextTop>OUR EMAIL ADDRESS</TextTop>
-          <Text>info@bebechic-uk.com</Text> <TextTop>OUR PHONE NUMBER</TextTop>
+          <Text>bebechicproducts@yahoo.co.uk</Text>{" "}
+          <TextTop>OUR PHONE NUMBER</TextTop>
           <Text>07818 027 954</Text>
         </WrapperText>
       </Wrapper>

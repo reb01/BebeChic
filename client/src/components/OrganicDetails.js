@@ -11,9 +11,9 @@ function OrganicDetails() {
         <FlexRow>
           <FaBaby size="30" />
           <Text>
-            Made in UK from top quality Oeko-Tex Certified 100% Organic Cotton
-            Poplin - certified free from harmful substances - we have been
-            selling our covers since 2009.
+            Made in UK from top quality Certified 100% Organic Cotton Poplin -
+            certified free from harmful substances - we have been selling our
+            covers since 2009.
           </Text>
         </FlexRow>
 
@@ -40,7 +40,7 @@ function OrganicDetails() {
         <FlexRow1>
           <FaBabyCarriage size="20" />
           <Text>
-            beautifully made in UK from 100% cotton Oeko-Tex certified fabric -
+            beautifully made in UK from 100% organic cotton certified fabric -
             certified free from harmful substances
           </Text>
         </FlexRow1>

@@ -94,9 +94,16 @@ export default App;
 
 const Wrapper = styled.div`
   box-sizing: border-box;
-  width: 100vw;
+  max-width: 1400px;
+  width: 95%;
+  margin: 0 auto;
   min-height: calc(0.76 * 100vh);
   overflow: hidden;
+  border-left: solid;
+  border-right: solid;
+  border-width: 1px;
+  border-color: hsl(0, 0%, 93%);
+
   /* border-style: solid;
   border-width: 1px;
   border-color: black; */

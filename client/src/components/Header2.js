@@ -4,7 +4,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 import logo from "../assets/BBCBanner1.png";
-import logo1 from "../assets/Amazon1.png";
+import logo1 from "../assets/Amazon.png";
 import logo2 from "../assets/MadeInUk3.jpg";
 import logo3 from "../assets/label.jpg";
 
@@ -12,17 +12,6 @@ const Header2 = () => {
   const history = useHistory();
   return (
     <Wrapper>
-      {" "}
-      {/* <HeaderWrapper>
-        <Img1
-          src={logo}
-          alt="Logo"
-          width="210px"
-          onClick={() => {
-            history.push("/");
-          }}
-        />
-      </HeaderWrapper>{" "} */}
       <HeaderWrapper>
         <img
           src={logo2}
@@ -43,7 +32,7 @@ const Header2 = () => {
         </Logo>
       </HeaderWrapper>
       <HeaderWrapper>
-        <Img2 src={logo3} alt="Logo" width="179px" />
+        <Img2 src={logo3} alt="Logo" width="176px" />
       </HeaderWrapper>{" "}
     </Wrapper>
   );
@@ -56,8 +45,8 @@ const Wrapper = styled.div`
   background-color: white;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 133px;
+  /* width: 100vw; */
+  height: 140px;
   color: black;
   box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 0.03);
   @media (max-width: 560px) {
