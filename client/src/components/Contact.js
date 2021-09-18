@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import logo from "../assets/ContactBanner (4).jpg";
+import logo from "../assets/ContactBanner4.jpg";
 import ContactForm from "./ContactForm";
 import "./App.css";
 
