@@ -78,12 +78,10 @@ const Covers = ({ allCovs, allProds, CottonCovs, OrgCovs, blanketsAll }) => {
                   <Price>{item.price}</Price>
                 </WrapperInd>
               </Div>
-            ))}{" "}
-            <div>
-              {" "}
-              <div ref={myRef}>
-                <CoversDetails />
-              </div>
+            ))}
+            <div> </div>{" "}
+            <div ref={myRef}>
+              <CoversDetails />
             </div>
           </Photos>
         </>
@@ -107,7 +105,7 @@ const Covers = ({ allCovs, allProds, CottonCovs, OrgCovs, blanketsAll }) => {
                   <Avatar
                     alt="avatar"
                     src={item.avatarSrc}
-                    style={{ width: 285 }}
+                    // style={{ width: 285 }}
                   />
                   <Description>{item.description}</Description>
                   <Color>{item.color}</Color>
@@ -222,32 +220,22 @@ const Wrapper = styled.div`
   align-items: center;
   margin-top: 40px;
 `;
-
-const Space = styled.div`
-  width: 100vw;
-  height: 180px;
-`;
 const TitleWrapper = styled.div`
   display: flex;
   cursor: pointer;
 `;
 const About = styled.div`
-  /* margin-top: 20px; */
   width: 85vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 `;
-
 const WrapperInd = styled.div`
   display: flex;
   flex-direction: column;
-  /* border: 0.05px solid #fdf2ff; */
-  /* #ebf4fa */
-  /* #f7f7f7 */
   width: 350px;
-  height: 470px;
+  height: 520px;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
@@ -261,7 +249,6 @@ const WrapperInd = styled.div`
     transition: 0.3s all ease-in-out;
   }
 `;
-
 const Description = styled.div`
   display: flex;
   flex-direction: column;
@@ -305,15 +292,11 @@ const Avatar = styled.img`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 250px;
+  width: 300px;
   padding-left: 40px;
   padding-left: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
-  /* &:hover {
-    transform: scale(1.1);
-    transition: 0.3s all ease-in-out;
-  } */
 `;
 const Title = styled.div`
   font-size: 34px;
@@ -338,8 +321,7 @@ const Div = styled(Link)`
 const Photos = styled.div`
   display: flex;
   flex-wrap: wrap;
-  /* border: 1px solid red; */
-  /* width: 80vw; */
+
   align-items: center;
   justify-content: center;
   margin: 40px;

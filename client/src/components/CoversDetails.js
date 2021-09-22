@@ -12,23 +12,24 @@ function CoversDetails() {
         <FlexRow>
           <FaBaby size="30" />
           <Text>
-            Made in UK from top quality Oeko-Tex Certified 100% Cotton Poplin -
-            certified free from harmful substances - we have been selling our
-            covers since 2009.
+            Made in UK from top quality Oeko-Tex Certified 100% Cotton Poplin
+            (certified free from harmful substances) and Certified 100% Organic
+            Cotton - we have been selling our covers since 2009.
           </Text>
         </FlexRow>
 
         <FlexRow>
           <FaBaby size="30" />
           <Text>
-            Our boned and shaped 100% cotton breastfeeding covers are light,
-            loose, cool and comfortable. The high quality cotton poplin fabric
-            has been chosen to be opaque but still light and breathable, so
-            minimising the possibility of overheating. The subtle colours and
-            patterns will give you the confidence to feed your baby anytime,
-            anywhere. Polyester boning creates a rigid neckline to allow that
-            all-important eye contact with baby. Very attractively packaged, a
-            BebeChic Breastfeeding Cover makes a wonderful baby shower gift.
+            Our boned and shaped 100% cotton and 100% organic cotton
+            breastfeeding covers are light, loose, cool and comfortable. The
+            high quality cotton poplin fabric has been chosen to be opaque but
+            still light and breathable, so minimising the possibility of
+            overheating. The subtle colours and patterns will give you the
+            confidence to feed your baby anytime, anywhere. Polyester boning
+            creates a rigid neckline to allow that all-important eye contact
+            with baby. Very attractively packaged, a BebeChic Breastfeeding
+            Cover makes a wonderful baby shower gift.
           </Text>
         </FlexRow>
 
@@ -40,8 +41,16 @@ function CoversDetails() {
         <FlexRow1>
           <FaBabyCarriage size="20" />
           <Text>
-            beautifully made in UK from 100% cotton Oeko-Tex certified fabric -
-            certified free from harmful substances
+            cotton covers - beautifully made in UK from 100% cotton Oeko-Tex
+            certified fabric - certified free from harmful substances
+          </Text>
+        </FlexRow1>
+
+        <FlexRow1>
+          <FaBabyCarriage size="20" />
+          <Text>
+            organic covers - beautifully made in UK from 100% organic cotton
+            certified fabric
           </Text>
         </FlexRow1>
 

@@ -13,7 +13,7 @@ const Header2 = () => {
   return (
     <Wrapper>
       <HeaderWrapper>
-        <img
+        <Img1
           src={logo2}
           alt="Logo"
           width="120px"
@@ -28,7 +28,7 @@ const Header2 = () => {
             window.location.href = `https://www.amazon.co.uk/s?me=AYYDT3IC5J99F&marketplaceID=A1F83G8C2ARO7P`;
           }}
         >
-          <img src={logo1} alt="Logo" width="220px" />
+          <Img3 src={logo1} alt="Logo" width="220px" />
         </Logo>
       </HeaderWrapper>
       <HeaderWrapper>
@@ -49,9 +49,6 @@ const Wrapper = styled.div`
   height: 140px;
   color: black;
   box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 0.03);
-  @media (max-width: 560px) {
-    min-width: 560px;
-  }
 `;
 const Img2 = styled.img`
   &:hover {
@@ -61,10 +58,28 @@ const Img2 = styled.img`
     transform: scale(1.5);
     transition: 0.3s all ease-in-out;
   }
+  @media (max-width: 800px) {
+    width: 120px;
+  }
+  @media (max-width: 580px) {
+    width: 80px;
+  }
 `;
 const Img1 = styled.img`
-  &:hover {
-    cursor: pointer;
+  @media (max-width: 800px) {
+    width: 70px;
+  }
+  @media (max-width: 580px) {
+    width: 40px;
+  }
+`;
+
+const Img3 = styled.img`
+  @media (max-width: 800px) {
+    width: 140px;
+  }
+  @media (max-width: 580px) {
+    width: 80px;
   }
 `;
 
@@ -75,9 +90,6 @@ const HeaderWrapper = styled.div`
   height: 170px;
   width: 33.3333333vw;
   color: black;
-  @media (max-width: 560px) {
-    min-width: 560px;
-  }
 `;
 const Logo = styled.div`
   display: flex;

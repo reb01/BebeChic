@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import styled from "styled-components";
 
@@ -20,9 +22,9 @@ const Wrapper = styled.div`
   height: 100px;
   /* background: linear-gradient(rgba(250, 0, 0, 0.2), transparent); */
   background-color: #f6e4e1 /*this your primary color*/;
-  @media (max-width: 560px) {
+  /* @media (max-width: 560px) {
     min-width: 560px;
-  }
+  } */
 `;
 const FooterTextContainer = styled.div`
   display: flex;

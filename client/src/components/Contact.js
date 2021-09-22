@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import logo from "../assets/ContactBanner4.jpg";
+import logo from "../assets/ContactBanner5.jpg";
 import ContactForm from "./ContactForm";
 import "./App.css";
 
@@ -23,7 +23,7 @@ const Contact = () => {
           <TextTop>WHERE WE ARE</TextTop>
           <Text>We are based in New Milton, Hampshire BH25 6SN</Text>{" "}
           <TextTop>OUR WEBSITE</TextTop>
-          <Text>bebechic-uk.com</Text>
+          <Text>www.bebechic.uk</Text>
           <TextTop>OUR CUSTOMER SERVICE</TextTop>
           <Text>
             Our Customer Service is second to none. You can be confident that
@@ -32,8 +32,7 @@ const Contact = () => {
             message.{" "}
           </Text>
           <TextTop>OUR EMAIL ADDRESS</TextTop>
-          <Text>bebechicproducts@yahoo.co.uk</Text>{" "}
-          <TextTop>OUR PHONE NUMBER</TextTop>
+          <Text>info@bebechic.uk</Text> <TextTop>OUR PHONE NUMBER</TextTop>
           <Text>07818 027 954</Text>
         </WrapperText>
       </Wrapper>
