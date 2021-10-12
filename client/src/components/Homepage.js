@@ -17,19 +17,12 @@ const Homepage = () => {
     <>
       <Wrapper>
         <ImagesWrapper>
-          <iframe
-            id="stay22-widget"
-            width="100%"
-            height="428"
-            src="https://www.stay22.com/embed/614b71c7d960a700165466c8"
-            frameborder="0"
-          ></iframe>
-
           <Logo>
             <ImgLeft src={logo} alt="Pic1" />
           </Logo>
           <BackgroundColour>
             <Title>BebeChic.UK</Title>
+
             <img src={logo1} alt="Pic2" style={{ width: 100 }} />
             <LowerTitle>Specializing in:</LowerTitle>
             <Link1 style={{ textDecoration: "none" }} to={`covers/${"cotton"}`}>
