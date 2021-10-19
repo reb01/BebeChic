@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import logo from "../assets/About1.jpg";
 import { useHistory } from "react-router-dom";
-import Select from "react-select";
 
 const About = () => {
   const history = useHistory();

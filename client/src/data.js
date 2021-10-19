@@ -6,7 +6,7 @@ export const coversDot = {
     id: "black",
     description: "Dot Breastfeeding Cover",
     color: "Black + White",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/black.jpeg",
   },
   cornflower: {
@@ -14,7 +14,7 @@ export const coversDot = {
     id: "cornflower",
     description: "Dot Breastfeeding Cover",
     color: "Deep Cornflower + White",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/Cornflower.jpeg",
   },
   duskyPink: {
@@ -22,7 +22,7 @@ export const coversDot = {
     id: "duskyPink",
     description: "Dot Breastfeeding Cover",
     color: "Dusky Pink + White",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/Pink.jpeg",
   },
   navy: {
@@ -30,7 +30,7 @@ export const coversDot = {
     id: "navy",
     description: "Dot Breastfeeding Cover",
     color: "Navy + White",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/Navy.jpeg",
   },
   plum: {
@@ -38,7 +38,7 @@ export const coversDot = {
     id: "plum",
     description: "Dot Breastfeeding Cover",
     color: "Plum + Ivory",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/Plum.jpeg",
   },
   powderBlue: {
@@ -46,7 +46,7 @@ export const coversDot = {
     id: "powderBlue",
     description: "Dot Breastfeeding Cover",
     color: "Powder Blue + White",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/powderBlue.jpeg",
   },
   silverGrey: {
@@ -54,7 +54,7 @@ export const coversDot = {
     id: "silverGrey",
     description: "Dot Breastfeeding Cover",
     color: "Silver Grey + White",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/silverGrey.jpeg",
   },
   slateGrey: {
@@ -62,7 +62,7 @@ export const coversDot = {
     id: "slateGrey",
     description: "Dot Breastfeeding Cover",
     color: "Slate Grey + White",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/slateGrey.jpeg",
   },
   thyme: {
@@ -70,7 +70,7 @@ export const coversDot = {
     id: "thyme",
     description: "Dot Breastfeeding Cover",
     color: "Wild Thyme + White",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/Thyme.jpeg",
   },
 };
@@ -81,7 +81,7 @@ export const coversFloral = {
     id: "ditsy",
     description: "Floral Breastfeeding Cover",
     color: "Ditsy",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/Ditsy.jpeg",
   },
 
@@ -90,7 +90,7 @@ export const coversFloral = {
     id: "hearts",
     description: "Floral Breastfeeding Cover",
     color: "Grey Hearts",
-    price: "£14.99",
+    price: "£15.99",
     avatarSrc: "/assets/Hearts.jpeg",
   },
 };
