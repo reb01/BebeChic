@@ -2,13 +2,15 @@
 
 import React from "react";
 import styled from "styled-components";
+import moment from "moment";
 
 const Footer = () => {
+  const date = moment().format("YYYY");
   return (
     <>
       <Wrapper>
         <FooterTextContainer>
-          <FooterText>© 2021 - BebeChic UK</FooterText>
+          <FooterText>© {date} - BebeChic UK</FooterText>
         </FooterTextContainer>
       </Wrapper>
     </>
